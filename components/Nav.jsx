@@ -13,19 +13,19 @@ import {
 
 // nav data
 export const navData = [
-  { name: "home", path: "/", icon: <HiHome /> },
-  { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "work", path: "/work", icon: <HiViewColumns /> },
+  { name: "home", path: "/", Icon: HiHome },
+  { name: "about", path: "/about", Icon: HiUser },
+  { name: "services", path: "/services", Icon: HiRectangleGroup },
+  { name: "work", path: "/work", Icon: HiViewColumns },
   {
     name: "testimonials",
     path: "/testimonials",
-    icon: <HiChatBubbleBottomCenterText />,
+    Icon: HiChatBubbleBottomCenterText,
   },
   {
     name: "contact",
     path: "/contact",
-    icon: <HiEnvelope />,
+    Icon: HiEnvelope,
   },
 ];
 
@@ -63,7 +63,9 @@ const Nav = () => {
               </div>
 
               {/* icon */}
-              <div>{link.icon}</div>
+              <div>
+                <link.Icon aria-hidden />
+              </div>
             </Link>
           );
         })}
