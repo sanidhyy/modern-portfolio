@@ -35,6 +35,8 @@ const Contact = () => {
             onSubmit={handleSubmit}
             autoComplete="off"
             autoCapitalize="off"
+            // only needed for production (in netlify) to accept form input
+            data-netlify="true"
           >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
