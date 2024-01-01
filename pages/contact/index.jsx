@@ -2,10 +2,14 @@ import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
 import { fadeIn } from "../../variants";
+import { useState } from "react";
 
 const Contact = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleSubmit = (event) => {
     event.preventDefault();
+    setIsLoading(true);
 
     const myForm = event.target;
     const formData = new FormData(myForm);
@@ -16,7 +20,8 @@ const Contact = () => {
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => alert("Thank you. I will get back to you ASAP."))
-      .catch((error) => console.log(error));
+      .catch((error) => console.log(error))
+      .finally(() => setIsLoading(false));
   };
 
   return (
@@ -55,6 +60,8 @@ const Contact = () => {
                 name="name"
                 placeholder="Name"
                 className="input"
+                disabled={isLoading}
+                aria-disabled={isLoading}
                 required
                 aria-required
               />
@@ -63,6 +70,8 @@ const Contact = () => {
                 name="email"
                 placeholder="E-mail"
                 className="input"
+                disabled={isLoading}
+                aria-disabled={isLoading}
                 required
                 aria-required
               />
@@ -72,6 +81,8 @@ const Contact = () => {
               name="subject"
               placeholder="Subject"
               className="input"
+              disabled={isLoading}
+              aria-disabled={isLoading}
               required
               aria-required
             />
@@ -79,12 +90,16 @@ const Contact = () => {
               name="message"
               placeholder="Message..."
               className="textarea"
+              disabled={isLoading}
+              aria-disabled={isLoading}
               required
               aria-required
             />
             <button
               type="submit"
               className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+              disabled={isLoading}
+              aria-disabled={isLoading}
             >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Let's talk
