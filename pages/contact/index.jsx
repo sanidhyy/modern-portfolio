@@ -4,11 +4,10 @@ import { BsArrowRight } from "react-icons/bs";
 import { fadeIn } from "../../variants";
 
 const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  const handleSubmit = () => {
     alert("Thanks for contacting me. I will get back to you ASAP.");
   };
+
   return (
     <div className="h-full bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
