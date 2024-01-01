@@ -52,6 +52,7 @@ const Contact = () => {
             <div className="flex gap-x-6 w-full">
               <input
                 type="text"
+                name="name"
                 placeholder="Name"
                 className="input"
                 required
@@ -59,6 +60,7 @@ const Contact = () => {
               />
               <input
                 type="email"
+                name="email"
                 placeholder="E-mail"
                 className="input"
                 required
@@ -67,18 +69,23 @@ const Contact = () => {
             </div>
             <input
               type="text"
+              name="subject"
               placeholder="Subject"
               className="input"
               required
               aria-required
             />
             <textarea
+              name="message"
               placeholder="Message..."
               className="textarea"
               required
               aria-required
             />
-            <button className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
+            <button
+              type="submit"
+              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+            >
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Let's talk
               </span>
