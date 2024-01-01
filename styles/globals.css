@@ -39,13 +39,13 @@
     @apply h-[52px];
   }
   .input {
-    @apply w-full h-[52px] rounded-lg pl-6 capitalize;
+    @apply w-full h-[52px] rounded-lg pl-6;
   }
   .input,
   .textarea {
     @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
   }
   .textarea {
-    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+    @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
 }
