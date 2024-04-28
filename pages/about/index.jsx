@@ -120,7 +120,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
+            Great <span className="text-accent">stories</span> birth
             magnificent designs.
           </motion.h2>
           <motion.p
