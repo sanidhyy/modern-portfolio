@@ -20,7 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
+            Dive into Dynamic Visuals: VFX, Video Editing, 3D Design & Motion Graphics
+            <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
           </motion.h1>
 
@@ -32,10 +33,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Explore a dynamic showcase of VFX, video editing, 3D design, and captivating motion graphics. Dive into a world where imagination meets technology, where each project tells a unique visual story. From immersive video experiences to stunning animations, discover the boundless creativity behind every pixel.
           </motion.p>
 
           {/* btn */}
