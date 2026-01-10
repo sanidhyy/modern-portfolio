@@ -14,12 +14,18 @@ const Contact = () => {
     const myForm = event.target;
     const formData = new FormData(myForm);
 
-    fetch("/", {
+    fetch("/__forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData).toString(),
     })
-      .then(() => alert("Thank you. I will get back to you ASAP."))
+      .then((res) => {
+        if (res.status === 200) {
+          alert("Thank you. I will get back to you ASAP.");
+        } else {
+          console.log(res);
+        }
+      })
       .catch((error) => console.log(error))
       .finally(() => setIsLoading(false));
   };
@@ -50,8 +56,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             autoComplete="off"
             autoCapitalize="off"
-            // only needed for production (in netlify) to accept form input
-            data-netlify="true"
+            name="contact"
           >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
