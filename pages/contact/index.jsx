@@ -60,6 +60,8 @@ const Contact = () => {
           >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
+              <input type="hidden" name="form-name" value="contact" />
+
               <input
                 type="text"
                 name="name"
