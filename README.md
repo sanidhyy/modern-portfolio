@@ -44,10 +44,25 @@
 Here is the folder structure of this app.
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 modern-portfolio/
   |- components/
+    |-- Avatar.jsx
+    |-- Bulb.jsx
+    |-- CardLeft.jsx
+    |-- CardRight.jsx
+    |-- Circles.jsx
+    |-- Header.jsx
+    |-- Layout.jsx
+    |-- Nav.jsx
+    |-- ParticlesContainer.jsx
+    |-- ProjectsBtn.jsx
+    |-- ServiceSlider.jsx
+    |-- Socials.jsx
+    |-- TestimonialSlider.jsx
+    |-- TopLeftImg.jsx
+    |-- Transition.jsx
+    |-- WorkSlider.jsx
   |- pages/
     |-- about/
     |-- contact/
@@ -61,6 +76,7 @@ modern-portfolio/
     |-- globals.css
   |- .eslintrc.json
   |- .gitignore
+  |- netlify.toml
   |- next.config.js
   |- package-lock.json
   |- package.json
@@ -68,7 +84,6 @@ modern-portfolio/
   |- tailwind.config.js
   |- variants.js
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -110,10 +125,13 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
-
 - [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
+- [eslint](https://www.npmjs.com/package/eslint): 8.41.0
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.12.16
-- [next](https://www.npmjs.com/package/next): 13.4.3
+- [next](https://www.npmjs.com/package/next): 15.5.10
+- [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
 - [react](https://www.npmjs.com/package/react): 18.2.0
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
 - [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
@@ -121,12 +139,9 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react-tsparticles](https://www.npmjs.com/package/react-tsparticles): ^2.9.3
 - [swiper](https://www.npmjs.com/package/swiper): ^9.4.0
 - [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
-- [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
-- [eslint](https://www.npmjs.com/package/eslint): 8.41.0
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
-- [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
+- [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
+
 <!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
