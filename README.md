@@ -43,6 +43,8 @@
 
 Here is the folder structure of this app.
 
+<!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 modern-portfolio/
   |- components/
@@ -66,6 +68,8 @@ modern-portfolio/
   |- tailwind.config.js
   |- variants.js
 ```
+
+<!--- FOLDER_STRUCTURE_END --->
 
 <br />
 
@@ -105,7 +109,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 
 Useful resources and dependencies that are used in Modern Portfolio.
 
-### Production Dependencies
+<!--- DEPENDENCIES_START --->
 
 - [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.12.16
@@ -118,14 +122,12 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [swiper](https://www.npmjs.com/package/swiper): ^9.4.0
 - [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
-
-### Development Dependencies
-
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
 - [eslint](https://www.npmjs.com/package/eslint): 8.41.0
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
 - [postcss](https://www.npmjs.com/package/postcss): ^8.4.23
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
+<!--- DEPENDENCIES_END --->
 
 ## :coffee: Buy Me a Coffee
 
