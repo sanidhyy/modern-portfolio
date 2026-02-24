@@ -114,7 +114,7 @@ modern-portfolio/
 
 ## :wrench: Stats
 
-[![Stats for Modern Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed-insights-svg.glitch.me/?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
+[![Stats for Modern Portfolio](/.github/images/stats.svg "Stats for Modern Portfolio")](https://pagespeed.web.dev/analysis?url=https://awersome-portfolio.netlify.app/ "Stats for Modern Portfolio")
 
 ## :raised_hands: Contribute
 
