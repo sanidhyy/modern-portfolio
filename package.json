@@ -60,7 +60,7 @@
     "react-tsparticles": "^2.9.3",
     "swiper": "^12.1.2",
     "tailwind-scrollbar": "^3.0.4",
-    "tsparticles": "^2.9.3"
+    "tsparticles": "^4.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
