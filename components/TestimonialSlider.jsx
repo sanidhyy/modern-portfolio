@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaQuoteLeft } from "react-icons/fa";
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -73,7 +73,7 @@ const TestimonialSlider = () => {
               <div className="mb-4">
                 <FaQuoteLeft
                   className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0"
-                  aria-aria-hidden
+                  aria-hidden
                 />
               </div>
 
