@@ -46,44 +46,41 @@ Here is the folder structure of this app.
 <!--- FOLDER_STRUCTURE_START --->
 ```bash
 modern-portfolio/
-  |- components/
-    |-- Avatar.jsx
-    |-- Bulb.jsx
-    |-- CardLeft.jsx
-    |-- CardRight.jsx
-    |-- Circles.jsx
-    |-- Header.jsx
-    |-- Layout.jsx
-    |-- Nav.jsx
-    |-- ParticlesContainer.jsx
-    |-- ProjectsBtn.jsx
-    |-- ServiceSlider.jsx
-    |-- Socials.jsx
-    |-- TestimonialSlider.jsx
-    |-- TopLeftImg.jsx
-    |-- Transition.jsx
-    |-- WorkSlider.jsx
-  |- pages/
+  |- app/
     |-- about/
     |-- contact/
     |-- services/
     |-- testimonials/
     |-- work/
-    |-- _app.jsx
-    |-- index.jsx
-  |- public/
-  |- styles/
     |-- globals.css
+    |-- layout.tsx
+    |-- page.tsx
+    |-- template.tsx
+  |- components/
+    |-- Avatar.tsx
+    |-- Bulb.tsx
+    |-- Circles.tsx
+    |-- Header.tsx
+    |-- Nav.tsx
+    |-- ParticlesContainer.tsx
+    |-- ProjectsBtn.tsx
+    |-- ServiceSlider.tsx
+    |-- Socials.tsx
+    |-- TestimonialSlider.tsx
+    |-- TopLeftImg.tsx
+    |-- Transition.tsx
+    |-- WorkSlider.tsx
+  |- public/
   |- .gitignore
   |- eslint.config.mjs
   |- netlify.toml
-  |- next.config.js
+  |- next.config.ts
   |- package.json
   |- pnpm-lock.yaml
   |- pnpm-workspace.yaml
-  |- postcss.config.js
-  |- tailwind.config.js
-  |- variants.js
+  |- postcss.config.mjs
+  |- tsconfig.json
+  |- variants.ts
 ```
 <!--- FOLDER_STRUCTURE_END --->
 
@@ -134,22 +131,25 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
+- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.3
 - [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.3.2
 - [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.3.2
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
+- [@types/node](https://www.npmjs.com/package/@types/node): ^26.2.0
+- [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.18
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.5
 - [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.3.2
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.1.1
 - [next](https://www.npmjs.com/package/next): 16.3.2
-- [postcss](https://www.npmjs.com/package/postcss): ^8.5.23
-- [react](https://www.npmjs.com/package/react): 18.2.0
+- [postcss](https://www.npmjs.com/package/postcss): ^8.5.26
+- [react](https://www.npmjs.com/package/react): 19.2.8
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
-- [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
+- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.1.0
-- [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.3.2
+- [typescript](https://www.npmjs.com/package/typescript): ^5.9.3
 
 <!--- DEPENDENCIES_END --->
 
