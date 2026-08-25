@@ -3,8 +3,8 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint ."
   },
@@ -13,20 +13,23 @@
     "@tsparticles/react": "^4.3.2",
     "framer-motion": "^13.1.1",
     "next": "16.3.2",
-    "react": "18.2.0",
+    "react": "19.2.8",
     "react-countup": "^6.4.2",
-    "react-dom": "18.2.0",
+    "react-dom": "19.2.8",
     "react-icons": "^5.7.0",
     "swiper": "^14.1.0",
-    "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^4.3.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.3.2",
-    "postcss": "^8.5.23",
-    "tailwindcss": "^3.3.2"
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
   },
   "author": {
     "name": "Sanidhya Kumar Verma",
@@ -38,10 +41,10 @@
     "react",
     "next",
     "nextjs",
+    "typescript",
     "html",
     "css",
-    "javascript",
-    "js",
+    "tailwindcss",
     "modern-ui",
     "modern-ux",
     "portfolio",
