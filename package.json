@@ -58,7 +58,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
-    "swiper": "^12.1.2",
+    "swiper": "^14.1.0",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^2.9.3"
   },
