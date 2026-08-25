@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import type { IconType } from "react-icons";
 import {
   RiYoutubeLine,
   RiInstagramLine,
@@ -9,7 +9,7 @@ import {
   RiPinterestLine,
 } from "react-icons/ri";
 
-export const socialData = [
+export const socialData: { name: string; link: string; Icon: IconType }[] = [
   {
     name: "YouTube",
     link: "https://youtube.com",
@@ -54,7 +54,7 @@ const Socials = () => {
           rel="noreferrer noopener"
           className={`${
             social.name === "Github"
-              ? "bg-accent rounded-full p-[5px] hover:text-white"
+              ? "bg-accent rounded-full p-1.25 hover:text-white"
               : "hover:text-accent"
           } transition-all duration-300`}
         >

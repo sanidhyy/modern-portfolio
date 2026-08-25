@@ -1,7 +1,10 @@
+"use client";
+
 import Particles, { ParticlesProvider } from "@tsparticles/react";
+import type { Engine, ISourceOptions } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
 
-const particlesOptions = {
+const particlesOptions: ISourceOptions = {
   fullScreen: { enable: false },
   background: {
     color: {
@@ -58,7 +61,7 @@ const particlesOptions = {
     number: {
       density: {
         enable: true,
-        area: 800,
+        width: 800,
       },
       value: 80,
     },
@@ -78,7 +81,7 @@ const particlesOptions = {
   detectRetina: true,
 };
 
-const initParticles = async (engine) => {
+const initParticles = async (engine: Engine) => {
   await loadFull(engine);
 };
 
