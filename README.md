@@ -48,6 +48,7 @@ Here is the folder structure of this app.
 modern-portfolio/
   |- app/
     |-- about/
+    |-- api/
     |-- contact/
     |-- services/
     |-- testimonials/
@@ -70,8 +71,12 @@ modern-portfolio/
     |-- TopLeftImg.tsx
     |-- Transition.tsx
     |-- WorkSlider.tsx
+  |- lib/
   |- public/
+  |- .env.example
+  |- .env/.env.local
   |- .gitignore
+  |- environment.d.ts
   |- eslint.config.mjs
   |- netlify.toml
   |- next.config.ts
@@ -92,9 +97,53 @@ modern-portfolio/
 
 2. Clone this repository to your local computer.
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `pnpm install --legacy-peer-deps`.
+3. Create `.env.local` file in root folder.
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `pnpm dev`.
+4. Contents of `.env.local`:
+
+```env
+# disabled next.js telemetry
+NEXT_TELEMETRY_DISABLED="1"
+
+# resend
+RESEND_API_KEY="re_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+RESEND_FROM_EMAIL="Your Name <me@example.com>"
+CONTACT_TO_EMAIL="contact@example.com"
+CONTACT_SITE_URL="https://awersome-portfolio.netlify.app"
+RESEND_TEMPLATE_CONTACT_USER="contact-thank-you"
+RESEND_TEMPLATE_CONTACT_ADMIN="contact-admin"
+
+# google recaptcha v3
+NEXT_PUBLIC_RECAPTCHA_SITE_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+RECAPTCHA_SECRET_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+RECAPTCHA_MIN_SCORE="0.5"
+```
+
+5. Create an account at [Resend](https://resend.com "Resend") and [add + verify a sending domain](https://resend.com/domains "Resend domains").
+
+6. Create an API key at [Resend API Keys](https://resend.com/api-keys "Resend API keys") with **Sending access**. Copy it to `RESEND_API_KEY`.
+
+7. Set `RESEND_FROM_EMAIL` to an address on that verified domain. Set `CONTACT_TO_EMAIL` to the inbox that should receive new contact notifications (required). Set `CONTACT_SITE_URL` to your site's public URL (no trailing slash).
+
+8. In [Resend Templates](https://resend.com/templates "Resend templates"), create **two** templates and **Publish** each.
+
+   **Template 1 — thank you to the user**
+   - Name: `contact-thank-you`
+   - Variables: `USER_NAME`, `USER_MESSAGE`, `SITE_URL`
+
+   **Template 2 — new message to admin**
+   - Name: `contact-admin`
+   - Variables: `USER_NAME`, `USER_EMAIL`, `USER_MESSAGE`, `SITE_URL`
+
+   Copy each template's alias into `RESEND_TEMPLATE_CONTACT_USER` and `RESEND_TEMPLATE_CONTACT_ADMIN`.
+
+9. Create a [Google reCAPTCHA v3](https://www.google.com/recaptcha/admin/create "Google reCAPTCHA") project. Choose **Score based (v3)**, add your production domain(s) **and** `localhost`, then copy the **Site key** to `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` and the **Secret key** to `RECAPTCHA_SECRET_KEY`.
+
+10. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `pnpm install --legacy-peer-deps`.
+
+11. Now the app is fully configured 👍 and you can start it with `npm run dev` or `pnpm dev`.
+
+**NOTE:** Ensure you don't share these keys publicly.
 
 ### :raising_hand: Need Help?
 
@@ -145,7 +194,10 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react](https://www.npmjs.com/package/react): 19.2.8
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
+- [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
+- [react-hot-toast](https://www.npmjs.com/package/react-hot-toast): ^2.6.0
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
+- [resend](https://www.npmjs.com/package/resend): ^6.22.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.1.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.3.2

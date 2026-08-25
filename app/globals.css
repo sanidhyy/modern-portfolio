@@ -71,6 +71,11 @@
     @apply bg-transparent outline-hidden focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
   }
   .textarea {
-    @apply w-full h-45 p-6 rounded-lg resize-none;
+    @apply w-full min-h-32 p-6 rounded-lg resize-none overflow-hidden max-h-60;
   }
+}
+
+/* Hide reCAPTCHA v3 badge */
+.grecaptcha-badge {
+  visibility: hidden;
 }

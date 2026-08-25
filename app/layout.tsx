@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
+import { Toaster } from "react-hot-toast";
 
 import Header from "@/components/Header";
 import Nav from "@/components/Nav";
@@ -29,6 +30,8 @@ export const metadata: Metadata = {
     "modern-ux",
     "portfolio",
     "framer-motion",
+    "react-hot-toast",
+    "resend",
     "3d-website",
     "particle-effect",
   ],
@@ -52,6 +55,18 @@ export default function RootLayout({
         <Nav />
         <Header />
         {children}
+        <aside>
+          <Toaster
+            position="top-center"
+            toastOptions={{
+              style: {
+                background: "#393a47",
+                color: "#fff",
+                border: "1px solid rgba(255, 255, 255, 0.2)",
+              },
+            }}
+          />
+        </aside>
       </body>
     </html>
   );
