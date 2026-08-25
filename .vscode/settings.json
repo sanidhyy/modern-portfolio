@@ -1,0 +1,9 @@
+{
+  // fix unknown at rule tailwind
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  // use workspace typescript version
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true
+}
