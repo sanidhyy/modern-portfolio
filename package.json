@@ -16,7 +16,7 @@
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
-    "react-icons": "^4.8.0",
+    "react-icons": "^5.7.0",
     "swiper": "^14.1.0",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^4.3.2"
