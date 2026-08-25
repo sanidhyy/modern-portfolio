@@ -74,8 +74,8 @@ modern-portfolio/
   |- public/
   |- styles/
     |-- globals.css
-  |- .eslintrc.json
   |- .gitignore
+  |- eslint.config.mjs
   |- netlify.toml
   |- next.config.js
   |- package.json
@@ -134,22 +134,22 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
-- [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
+- [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.3.2
+- [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.3.2
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
-- [eslint](https://www.npmjs.com/package/eslint): 8.41.0
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 13.4.3
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^10.12.16
+- [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
+- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.3.2
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.1.1
 - [next](https://www.npmjs.com/package/next): 16.3.2
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.23
 - [react](https://www.npmjs.com/package/react): 18.2.0
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
 - [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
 - [react-icons](https://www.npmjs.com/package/react-icons): ^4.8.0
-- [react-tsparticles](https://www.npmjs.com/package/react-tsparticles): ^2.9.3
-- [swiper](https://www.npmjs.com/package/swiper): ^12.1.2
+- [swiper](https://www.npmjs.com/package/swiper): ^14.1.0
 - [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
-- [tsparticles](https://www.npmjs.com/package/tsparticles): ^2.9.3
+- [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.3.2
 
 <!--- DEPENDENCIES_END --->
 
