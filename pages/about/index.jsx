@@ -9,12 +9,8 @@ import {
   FaReact,
   FaWordpress,
 } from "react-icons/fa";
-import {
-  SiAdobephotoshop,
-  SiAdobexd,
-  SiFramer,
-  SiNextdotjs,
-} from "react-icons/si";
+import { SiFramer, SiNextdotjs } from "react-icons/si";
+import { TbBrandAdobePhotoshop, TbBrandAdobeXd } from "react-icons/tb";
 
 import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
@@ -39,7 +35,7 @@ export const aboutData = [
       },
       {
         title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
+        icons: [FaFigma, TbBrandAdobeXd, TbBrandAdobePhotoshop],
       },
     ],
   },
