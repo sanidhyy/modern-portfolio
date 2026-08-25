@@ -72,6 +72,7 @@ modern-portfolio/
     |-- Transition.tsx
     |-- WorkSlider.tsx
   |- lib/
+    |-- contact.ts
   |- public/
   |- .env.example
   |- .env/.env.local
