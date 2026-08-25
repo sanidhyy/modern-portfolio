@@ -44,7 +44,6 @@
 Here is the folder structure of this app.
 
 <!--- FOLDER_STRUCTURE_START --->
-
 ```bash
 modern-portfolio/
   |- components/
@@ -79,13 +78,13 @@ modern-portfolio/
   |- .gitignore
   |- netlify.toml
   |- next.config.js
-  |- package-lock.json
   |- package.json
+  |- pnpm-lock.yaml
+  |- pnpm-workspace.yaml
   |- postcss.config.js
   |- tailwind.config.js
   |- variants.js
 ```
-
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -135,7 +134,6 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
-
 - [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
 - [eslint](https://www.npmjs.com/package/eslint): 8.41.0
