@@ -145,7 +145,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react](https://www.npmjs.com/package/react): 18.2.0
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
 - [react-dom](https://www.npmjs.com/package/react-dom): 18.2.0
-- [react-icons](https://www.npmjs.com/package/react-icons): ^4.8.0
+- [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.1.0
 - [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar): ^3.0.4
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.2
