@@ -16,7 +16,10 @@
     "react": "19.2.8",
     "react-countup": "^6.4.2",
     "react-dom": "19.2.8",
+    "react-google-recaptcha-v3": "^1.11.0",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^5.7.0",
+    "resend": "^6.22.0",
     "swiper": "^14.1.0",
     "tsparticles": "^4.3.2"
   },
@@ -49,6 +52,8 @@
     "modern-ux",
     "portfolio",
     "framer-motion",
+    "react-hot-toast",
+    "resend",
     "3d-website",
     "particle-effect"
   ],
