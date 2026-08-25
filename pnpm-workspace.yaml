@@ -1,0 +1,4 @@
+allowBuilds:
+  react-tsparticles: false
+  tsparticles-engine: false
+  unrs-resolver: false

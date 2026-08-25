@@ -44,6 +44,7 @@
 Here is the folder structure of this app.
 
 <!--- FOLDER_STRUCTURE_START --->
+
 ```bash
 modern-portfolio/
   |- components/
@@ -84,6 +85,7 @@ modern-portfolio/
   |- tailwind.config.js
   |- variants.js
 ```
+
 <!--- FOLDER_STRUCTURE_END --->
 
 <br />
@@ -94,9 +96,9 @@ modern-portfolio/
 
 2. Clone this repository to your local computer.
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `pnpm install --legacy-peer-deps`.
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `pnpm dev`.
 
 ### :raising_hand: Need Help?
 
@@ -133,6 +135,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
+
 - [@next/font](https://www.npmjs.com/package/@next/font): ^13.4.4
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.14
 - [eslint](https://www.npmjs.com/package/eslint): 8.41.0
