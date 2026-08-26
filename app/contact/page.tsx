@@ -280,6 +280,9 @@ const ContactForm = () => {
           />
         )}
       </button>
+      <p className="mt-3 text-xs text-white/40">
+        This site is protected by reCAPTCHA.
+      </p>
     </motion.form>
   );
 };
