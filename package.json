@@ -19,7 +19,7 @@
     "react-google-recaptcha-v3": "^1.11.0",
     "react-hot-toast": "^2.6.0",
     "react-icons": "^5.7.0",
-    "resend": "^6.22.0",
+    "resend": "^6.22.1",
     "swiper": "^14.1.0",
     "tsparticles": "^4.3.2"
   },
