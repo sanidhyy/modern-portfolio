@@ -202,7 +202,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [swiper](https://www.npmjs.com/package/swiper): ^14.1.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.3.2
-- [typescript](https://www.npmjs.com/package/typescript): ^5.9.3
+- [typescript](https://www.npmjs.com/package/typescript): ^6.0.3
 
 <!--- DEPENDENCIES_END --->
 
