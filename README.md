@@ -184,7 +184,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.3
 - [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.3.2
 - [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.3.2
-- [@types/node](https://www.npmjs.com/package/@types/node): ^26.3.0
+- [@types/node](https://www.npmjs.com/package/@types/node): ^26.4.1
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.18
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.5
 - [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
