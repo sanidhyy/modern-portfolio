@@ -11,7 +11,7 @@
   "dependencies": {
     "@tsparticles/engine": "^4.3.2",
     "@tsparticles/react": "^4.3.2",
-    "framer-motion": "^13.1.1",
+    "framer-motion": "^13.2.0",
     "next": "16.3.4",
     "react": "19.2.8",
     "react-countup": "^6.4.2",
