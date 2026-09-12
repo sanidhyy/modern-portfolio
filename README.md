@@ -186,7 +186,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.3.2
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26.4.1
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.18
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.5
+- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.7
 - [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.3.4
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.2.0
