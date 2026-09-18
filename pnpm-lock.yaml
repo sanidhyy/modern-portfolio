@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@tsparticles/engine':
-        specifier: ^4.3.2
-        version: 4.3.2
+        specifier: ^4.4.0
+        version: 4.4.0
       '@tsparticles/react':
-        specifier: ^4.3.2
-        version: 4.3.2(@tsparticles/engine@4.3.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: ^4.4.0
+        version: 4.4.0(@tsparticles/engine@4.4.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       framer-motion:
         specifier: ^13.2.0
         version: 13.2.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -46,7 +46,7 @@ importers:
         version: 14.2.0
       tsparticles:
         specifier: ^4.4.0
-        version: 4.4.0(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
+        version: 4.4.0(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
     devDependencies:
       '@tailwindcss/postcss':
         specifier: ^4.3.3
@@ -598,9 +598,6 @@ packages:
     peerDependencies:
       '@tsparticles/engine': 4.4.0
 
-  '@tsparticles/engine@4.3.2':
-    resolution: {integrity: sha512-k4U7uahhxt7bPjEPHu+qrJXjHRysy/QMN+2/KK4d0/V7CElt5/oeR+H9QB95Osy/PtUCCi6EH/LS7k0443qlJA==}
-
   '@tsparticles/engine@4.4.0':
     resolution: {integrity: sha512-zUDykZ7qBqHYMXr6NveXg51kBlvfaQKMmWkMJ8nT7fC4dXdNayb1+TxOfAoqH9/U/u0Eyr0YE+72ai/ymS0uww==}
 
@@ -771,10 +768,10 @@ packages:
     peerDependencies:
       '@tsparticles/engine': 4.4.0
 
-  '@tsparticles/react@4.3.2':
-    resolution: {integrity: sha512-aCTqFkGBnT1BitrlmyjkR+FNQ+RKuO8UfhadLfW51YSHwTdR0erB1ZFab+wCout1SWGIR7mirRWfjwewxiDMeA==}
+  '@tsparticles/react@4.4.0':
+    resolution: {integrity: sha512-vywNLCJi7N/6eY92wjJ7ePwvkMsnKnfm3sU5jPH6ggZxWHCmotSmZyihtlsC3jPa5tHpCidNprQKrQctACa2kw==}
     peerDependencies:
-      '@tsparticles/engine': 4.3.2
+      '@tsparticles/engine': 4.4.0
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
@@ -2882,8 +2879,6 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.4.0
 
-  '@tsparticles/engine@4.3.2': {}
-
   '@tsparticles/engine@4.4.0': {}
 
   '@tsparticles/interaction-external-attract@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
@@ -2912,10 +2907,10 @@ snapshots:
       '@tsparticles/engine': 4.4.0
       '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
-  '@tsparticles/interaction-external-drag@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))':
+  '@tsparticles/interaction-external-drag@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
       '@tsparticles/engine': 4.4.0
-      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.3.2)
+      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
   '@tsparticles/interaction-external-grab@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
@@ -2953,10 +2948,10 @@ snapshots:
       '@tsparticles/engine': 4.4.0
       '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
-  '@tsparticles/interaction-external-trail@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))':
+  '@tsparticles/interaction-external-trail@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
       '@tsparticles/engine': 4.4.0
-      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.3.2)
+      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
   '@tsparticles/interaction-particles-attract@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
@@ -2974,11 +2969,11 @@ snapshots:
       '@tsparticles/engine': 4.4.0
       '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
-  '@tsparticles/plugin-absorbers@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))':
+  '@tsparticles/plugin-absorbers@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
       '@tsparticles/engine': 4.4.0
     optionalDependencies:
-      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.3.2)
+      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
   '@tsparticles/plugin-blend@4.4.0(@tsparticles/engine@4.4.0)':
     dependencies:
@@ -2988,21 +2983,21 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.4.0
 
-  '@tsparticles/plugin-emitters-shape-circle@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)))':
+  '@tsparticles/plugin-emitters-shape-circle@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)))':
     dependencies:
       '@tsparticles/engine': 4.4.0
-      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
+      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
 
-  '@tsparticles/plugin-emitters-shape-square@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)))':
+  '@tsparticles/plugin-emitters-shape-square@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)))':
     dependencies:
       '@tsparticles/engine': 4.4.0
-      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
+      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
 
-  '@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))':
+  '@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))':
     dependencies:
       '@tsparticles/engine': 4.4.0
     optionalDependencies:
-      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.3.2)
+      '@tsparticles/plugin-interactivity': 4.4.0(@tsparticles/engine@4.4.0)
 
   '@tsparticles/plugin-hex-color@4.4.0(@tsparticles/engine@4.4.0)':
     dependencies:
@@ -3011,10 +3006,6 @@ snapshots:
   '@tsparticles/plugin-hsl-color@4.4.0(@tsparticles/engine@4.4.0)':
     dependencies:
       '@tsparticles/engine': 4.4.0
-
-  '@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)':
-    dependencies:
-      '@tsparticles/engine': 4.3.2
 
   '@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)':
     dependencies:
@@ -3028,9 +3019,9 @@ snapshots:
     dependencies:
       '@tsparticles/engine': 4.4.0
 
-  '@tsparticles/react@4.3.2(@tsparticles/engine@4.3.2)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@tsparticles/react@4.4.0(@tsparticles/engine@4.4.0)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
-      '@tsparticles/engine': 4.3.2
+      '@tsparticles/engine': 4.4.0
       react: 19.2.8
       react-dom: 19.2.8(react@19.2.8)
 
@@ -4789,15 +4780,15 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsparticles@4.4.0(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)):
+  tsparticles@4.4.0(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)):
     dependencies:
       '@tsparticles/engine': 4.4.0
-      '@tsparticles/interaction-external-drag': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
-      '@tsparticles/interaction-external-trail': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
-      '@tsparticles/plugin-absorbers': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
-      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2))
-      '@tsparticles/plugin-emitters-shape-circle': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)))
-      '@tsparticles/plugin-emitters-shape-square': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.3.2)))
+      '@tsparticles/interaction-external-drag': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
+      '@tsparticles/interaction-external-trail': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
+      '@tsparticles/plugin-absorbers': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
+      '@tsparticles/plugin-emitters': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0))
+      '@tsparticles/plugin-emitters-shape-circle': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)))
+      '@tsparticles/plugin-emitters-shape-square': 4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-emitters@4.4.0(@tsparticles/engine@4.4.0)(@tsparticles/plugin-interactivity@4.4.0(@tsparticles/engine@4.4.0)))
       '@tsparticles/shape-text': 4.4.0(@tsparticles/engine@4.4.0)
       '@tsparticles/slim': 4.4.0
       '@tsparticles/updater-destroy': 4.4.0(@tsparticles/engine@4.4.0)

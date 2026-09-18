@@ -182,8 +182,8 @@ Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
 - [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.3
-- [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.3.2
-- [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.3.2
+- [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.4.0
+- [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.4.0
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26.4.1
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.18
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.2.7
@@ -201,7 +201,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [resend](https://www.npmjs.com/package/resend): ^6.26.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.2.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
-- [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.3.2
+- [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.4.0
 - [typescript](https://www.npmjs.com/package/typescript): ^6.0.3
 
 <!--- DEPENDENCIES_END --->
