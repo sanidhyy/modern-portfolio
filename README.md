@@ -190,7 +190,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.4.0
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^14.0.0
-- [next](https://www.npmjs.com/package/next): 16.3.7
+- [next](https://www.npmjs.com/package/next): 16.4.0
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.28
 - [react](https://www.npmjs.com/package/react): 19.2.8
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
