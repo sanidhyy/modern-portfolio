@@ -13,7 +13,7 @@
     "@tsparticles/react": "^4.4.0",
     "framer-motion": "^14.0.0",
     "next": "16.4.0",
-    "react": "19.2.8",
+    "react": "19.3.0",
     "react-countup": "^6.4.2",
     "react-dom": "19.2.8",
     "react-google-recaptcha-v3": "^1.11.0",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.6.4",
-    "@types/react": "^19.2.18",
+    "@types/react": "^19.3.0",
     "@types/react-dom": "^19.2.7",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.0",
