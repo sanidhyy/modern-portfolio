@@ -13,7 +13,7 @@
     "@tsparticles/react": "^4.4.0",
     "framer-motion": "^14.2.0",
     "next": "16.4.0",
-    "react": "19.3.0",
+    "react": "19.3.1",
     "react-countup": "^6.4.2",
     "react-dom": "19.3.0",
     "react-google-recaptcha-v3": "^1.11.0",
