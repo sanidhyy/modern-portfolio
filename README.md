@@ -192,7 +192,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [framer-motion](https://www.npmjs.com/package/framer-motion): ^14.2.0
 - [next](https://www.npmjs.com/package/next): 16.4.0
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.30
-- [react](https://www.npmjs.com/package/react): 19.3.0
+- [react](https://www.npmjs.com/package/react): 19.3.1
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
 - [react-dom](https://www.npmjs.com/package/react-dom): 19.3.0
 - [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
