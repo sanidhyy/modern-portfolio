@@ -198,7 +198,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
 - [react-hot-toast](https://www.npmjs.com/package/react-hot-toast): ^2.6.1
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
-- [resend](https://www.npmjs.com/package/resend): ^6.34.1
+- [resend](https://www.npmjs.com/package/resend): ^6.35.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.3.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.4.0
