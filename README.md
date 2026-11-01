@@ -194,7 +194,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.30
 - [react](https://www.npmjs.com/package/react): 19.3.1
 - [react-countup](https://www.npmjs.com/package/react-countup): ^6.4.2
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.3.0
+- [react-dom](https://www.npmjs.com/package/react-dom): 19.3.1
 - [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
 - [react-hot-toast](https://www.npmjs.com/package/react-hot-toast): ^2.6.1
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
