@@ -200,7 +200,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
 - [resend](https://www.npmjs.com/package/resend): ^6.37.0
 - [swiper](https://www.npmjs.com/package/swiper): ^14.4.0
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
+- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.5
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.4.0
 - [typescript](https://www.npmjs.com/package/typescript): ^6.0.3
 
