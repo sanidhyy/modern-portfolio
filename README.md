@@ -181,7 +181,7 @@ You might encounter some bugs while using this app. You are more than welcome to
 Useful resources and dependencies that are used in Modern Portfolio.
 
 <!--- DEPENDENCIES_START --->
-- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.3
+- [@tailwindcss/postcss](https://www.npmjs.com/package/@tailwindcss/postcss): ^4.3.5
 - [@tsparticles/engine](https://www.npmjs.com/package/@tsparticles/engine): ^4.4.0
 - [@tsparticles/react](https://www.npmjs.com/package/@tsparticles/react): ^4.4.0
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26.6.6
@@ -189,7 +189,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): ^19.3.0
 - [eslint](https://www.npmjs.com/package/eslint): ^9.39.5
 - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.4.6
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^14.12.0
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^14.14.0
 - [next](https://www.npmjs.com/package/next): 16.4.6
 - [postcss](https://www.npmjs.com/package/postcss): ^8.5.32
 - [react](https://www.npmjs.com/package/react): 19.3.1
@@ -198,7 +198,7 @@ Useful resources and dependencies that are used in Modern Portfolio.
 - [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
 - [react-hot-toast](https://www.npmjs.com/package/react-hot-toast): ^2.6.1
 - [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
-- [resend](https://www.npmjs.com/package/resend): ^6.38.0
+- [resend](https://www.npmjs.com/package/resend): ^6.38.1
 - [swiper](https://www.npmjs.com/package/swiper): ^14.4.0
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.5
 - [tsparticles](https://www.npmjs.com/package/tsparticles): ^4.4.0
